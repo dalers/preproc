@@ -1,16 +1,14 @@
 preproc
 ============
-***preproc*** is a pre-processor for sample data captured by msp432logger. preproc is a command line utility, and coded in C.
+***preproc*** is a general purpose data validation and analysis command line utility for the [msp432logger project](http://sourceforge.net/p/msp432logger),
 
 ***preproc is in active development.***
 
 preproc is developed as an open source project and uses the permissive business-friendly [BSD 2-Clause License](http://opensource.org/licenses/BSD-2-Clause).
 
-The goal of the preproc project is develop a general-purpose data validation and analysis utility for data captured by the [msp432logger project](http://sourceforge.net/p/msp432logger).
-
 Getting Started
 ---------------
-The standard development environment uses the default Clang C compiler on FreeBSD (e.g. 10.3-RELEASE).
+preproc is coded in C and is compiled using a standard C compiler, typically Clang on FreeBSD (e.g. 10.3-RELEASE).
 
 1. Checkout code from Github to a convenient local directory.
 2. Compile using cc (% cc preproc.c -o preproc).
@@ -19,7 +17,7 @@ Issue Tracking
 --------------
 Issues (and project milestones) are tracked in the [preproc project Issues tool](https://github.com/dalers/preproc/issues).
 
-Communication Channels
+Communication Channel
 ----------------------
 The official communication channel is the [preproc project Issues tool](https://github.com/dalers/preproc/issues).
 
