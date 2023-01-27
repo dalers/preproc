@@ -11,7 +11,8 @@ Getting Started
 preproc is coded in C and is compiled using a standard C compiler, typically Clang on FreeBSD (e.g. 10.3-RELEASE).
 
 1. Checkout code from Github to a convenient local directory.
-2. Compile using cc (% cc preproc.c -o preproc).
+2. Compile: % cc preproc.c -o preproc
+3. Execute: % ./preproc < log.txt
 
 Issue Tracking
 --------------
